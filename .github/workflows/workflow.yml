@@ -9,7 +9,8 @@ on:
 
 jobs:
   build:
-    runs-on: common-runner
+    runs-on: 
+      - common-runner
     
     steps:
       - name: Checkout Repository
